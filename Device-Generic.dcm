@@ -5,6 +5,11 @@ D 2-input AND Gate
 K Single Gate AND
 $ENDCMP
 #
+$CMP AND3
+D 3-input AND Gate
+K Single Gate AND
+$ENDCMP
+#
 $CMP DFF
 D D Flip Flop, Rising Edge Trigger
 K d flip flop dff
@@ -31,6 +36,11 @@ K Single Gate NAND
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP NAND3
+D 3-input NAND Gate
+K Single Gate NAND
+$ENDCMP
+#
 $CMP NMOS
 D N-channel MOSFET
 K mosfet nmos
@@ -48,8 +58,18 @@ D 2-input NOR Gate
 K Single Gate NOR
 $ENDCMP
 #
+$CMP NOR3
+D 3-input NOR Gate
+K Single Gate NOR
+$ENDCMP
+#
 $CMP OR2
 D 2-input OR Gate
+K Single Gate OR
+$ENDCMP
+#
+$CMP OR3
+D 3-input OR Gate
 K Single Gate OR
 $ENDCMP
 #
@@ -73,6 +93,11 @@ $ENDCMP
 #
 $CMP XOR2
 D 2-input XOR Gate
+K Single Gate XOR
+$ENDCMP
+#
+$CMP XOR3
+D 3-input XOR Gate
 K Single Gate XOR
 $ENDCMP
 #
