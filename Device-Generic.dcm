@@ -5,6 +5,21 @@ D 2-input AND Gate
 K Single Gate AND
 $ENDCMP
 #
+$CMP DFF
+D D Flip Flop, Rising Edge Trigger
+K d flip flop dff
+$ENDCMP
+#
+$CMP DFF_NOINV
+D D Flip Flop, Rising Edge Trigger, No Inverted Output
+K d flip flop dff
+$ENDCMP
+#
+$CMP DLATCH
+D D Latch
+K d latch
+$ENDCMP
+#
 $CMP INV
 D Inverter
 K Inverter
