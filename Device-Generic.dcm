@@ -1,0 +1,64 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AND2
+D 2-input AND Gate
+K Single Gate AND
+$ENDCMP
+#
+$CMP INV
+D Inverter
+K Inverter
+$ENDCMP
+#
+$CMP NAND2
+D 2-input NAND Gate
+K Single Gate NAND
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP NMOS
+D N-channel MOSFET
+K mosfet nmos
+F ~
+$ENDCMP
+#
+$CMP NMOS_Small
+D N-channel MOSFET, small
+K mosfet nmos
+F ~
+$ENDCMP
+#
+$CMP NOR2
+D 2-input NOR Gate
+K Single Gate NOR
+$ENDCMP
+#
+$CMP OR2
+D 2-input OR Gate
+K Single Gate OR
+$ENDCMP
+#
+$CMP PMOS
+D P-channel MOSFET
+K mosfet pmos
+F ~
+$ENDCMP
+#
+$CMP PMOS_Small
+D P-channel MOSFET, small
+K mosfet pmos
+F ~
+$ENDCMP
+#
+$CMP TGate
+D Transmission gate
+K transmission gate
+F ~
+$ENDCMP
+#
+$CMP XOR2
+D 2-input XOR Gate
+K Single Gate XOR
+$ENDCMP
+#
+#End Doc Library
