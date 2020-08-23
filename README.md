@@ -1,6 +1,8 @@
 # device-symbols
 A KiCad symbol libray for discrete devices and gates
 
+![fulladder](/img/fulladder.png)
+
 ## Description
 This is a library of KiCad symbols intended for use in drawing gate and transistor level digital circuits. These symbols are not intended for use in a PCB design; as such, logic gates, flip-flops, etc. lack power pins.
 
