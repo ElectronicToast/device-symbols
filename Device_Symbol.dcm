@@ -30,9 +30,20 @@ D Power symbol creates a global label with name "GNDREF" , reference supply grou
 K power-flag
 $ENDCMP
 #
+$CMP IDC
+D Current source symbol
+K IDC
+$ENDCMP
+#
 $CMP INV
 D Inverter
 K Inverter
+$ENDCMP
+#
+$CMP L_CT
+D Inductor symbol for simulation only
+K simulation
+F ~
 $ENDCMP
 #
 $CMP NAND2
@@ -147,6 +158,17 @@ $ENDCMP
 $CMP TGate
 D Transmission gate
 K transmission gate
+F ~
+$ENDCMP
+#
+$CMP VDD
+D Voltage rail symbol
+K VDD
+$ENDCMP
+#
+$CMP Varactor_Small
+D Varactor, small symbol
+K cap capacitor varactor varicap
 F ~
 $ENDCMP
 #
