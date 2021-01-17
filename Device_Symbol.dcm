@@ -26,8 +26,8 @@ K d latch
 $ENDCMP
 #
 $CMP GND
-D Power symbol creates a global label with name "GNDREF" , reference supply ground
-K power-flag
+D GND symbol
+K gnd
 $ENDCMP
 #
 $CMP IDC
@@ -41,15 +41,14 @@ K Inverter
 $ENDCMP
 #
 $CMP L_CT
-D Inductor symbol for simulation only
-K simulation
+D Inductor, center tap
+K inductor center tap
 F ~
 $ENDCMP
 #
 $CMP NAND2
 D 2-input NAND Gate
 K Single Gate NAND
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP NAND3
@@ -64,13 +63,13 @@ F ~
 $ENDCMP
 #
 $CMP NMOSA
-D N-channel MOSFET, small
+D N-channel MOSFET, analog symbol, small
 K mosfet nmos
 F ~
 $ENDCMP
 #
 $CMP NMOSAT
-D N-channel MOSFET, small
+D N-channel MOSFET, analog symbol, small, with gate connection
 K mosfet nmos
 F ~
 $ENDCMP
@@ -126,14 +125,14 @@ F ~
 $ENDCMP
 #
 $CMP PMOSA
-D N-channel MOSFET, small
-K mosfet nmos
+D P-channel MOSFET, analog symbol, small
+K mosfet pmos
 F ~
 $ENDCMP
 #
 $CMP PMOSAT
-D N-channel MOSFET, small
-K mosfet nmos
+D P-channel MOSFET, analog symbol, small, with gate connection
+K mosfet pmos
 F ~
 $ENDCMP
 #
